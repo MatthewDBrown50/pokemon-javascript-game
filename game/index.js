@@ -13,10 +13,10 @@ context.fillStyle = 'white';
 context.fillRect(0, 0, canvas.width, canvas.height);
 
 const mapImage = new Image();
-mapImage.src = './assets/Pokemon Style Game Map.png';
+mapImage.src = './assets/maps/gameMap.png';
 
 const playerImage = new Image();
-playerImage.src = './assets/playerDown.png';
+playerImage.src = './assets/sprites/player/playerDown.png';
 
 class Sprite {
     constructor({image, position, velocity}) {
